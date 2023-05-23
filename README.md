@@ -15,6 +15,6 @@ Import trace for requested module:
 
 To reproduce the error you can:
 
-1. Clone the repo by running `git clone https://github.com/marnauortega/next-sanity-mux-test`
+1. Clone the repo by running `git clone https://github.com/marnauortega/next-sanity-mux-test.git`
 2. Run `npm run dev`
 3. Visit the main url localhost:3000
