@@ -1,6 +1,7 @@
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
 import { muxInput } from "sanity-plugin-mux-input";
+import { schemaTypes } from "./sanity/schemas";
 
 export default defineConfig({
   name: "default",
@@ -9,4 +10,7 @@ export default defineConfig({
   dataset: "production",
   basePath: "/admin",
   plugins: [deskTool(), muxInput()],
+  schema: {
+    types: schemaTypes,
+  },
 });
